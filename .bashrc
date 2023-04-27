@@ -1,4 +1,4 @@
-export PATH=$PATH:~/AppData/Local/hyper/app-2.0.0/resources/bin:~/bin
+export PATH=~/bin:$PATH
 
 # PS1="\e[1;33m\u\e[0;33m@\h \e[0;35min \e[1;35m\W\n\e[1;31m\$>\e[0m "
 
@@ -19,7 +19,4 @@ __main() {
 }
 __main
 unset -f __main
-
-echo
-scoop update
 
