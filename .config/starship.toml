@@ -1,0 +1,46 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+[directory]
+style = "bold blue"
+truncation_length = 4
+
+[directory.substitutions]
+"Documents" = "Documents📄"
+"Downloads" = "Downloads💾"
+"Music" = "Music🎵"
+"Pictures" = "Pictures🖼️"
+"Videos" = "Videos📽️"
+"~" = "Home"
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](red)"
+vimcmd_symbol = "[❮](yellow)"
+
+[git_branch]
+style = "cyan"
+format = '[[$branch](fg:#769ff0 bg:#394260)]($style) '
+
+[cmd_duration]
+format = "[$duration]($style) "
+style = "yellow"
+
+[python]
+format = "[$virtualenv]($style) "
+style = "bright-black"
+
+[battery]
+full_symbol = "• "
+charging_symbol = "⇡ "
+discharging_symbol = "⇣ "
+unknown_symbol = "❓ "
+empty_symbol = "❗ "
+
+[nodejs]
+symbol = "via [⬢ $version]($style) "
+
+[erlang]
+symbol = "ⓔ "
+
+[pulumi]
+symbol = "🧊 "
